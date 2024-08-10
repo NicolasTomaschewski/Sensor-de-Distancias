@@ -32,5 +32,6 @@
   - **Anodo**: Pino longo do LED -> **Pino Digital 6** no Arduino.
   - **Catodo**: Pino curto do LED -> **Resistor de Limitação** (220Ω, por exemplo) -> **GND** no Arduino.
 
-## Diagrama de Conexões
+
+Certifique-se de que as conexões estão feitas corretamente e que o endereço I2C do LCD está correto. Se o LCD ainda não funcionar, pode ser necessário verificar a biblioteca `LiquidCrystal_I2C` ou o módulo LCD para garantir que não há problemas com o hardware.
 
